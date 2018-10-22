@@ -1,0 +1,21 @@
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Data d1 = new Data(10,03,2000,10,30,10);
+		Data d2 = new Data(16,05,2000,23,15,20);
+		Data d3 = new Data(5,10,2005);
+			
+		d1.imprimir(Data.FORMATO_12H);
+		d1.imprimir(Data.FORMATO_24H);
+		d2.imprimir(Data.FORMATO_12H);
+		d2.imprimir(Data.FORMATO_24H);
+		d3.imprimir(Data.FORMATO_12H);
+		d3.imprimir(Data.FORMATO_24H);
+
+	}
+
+}
